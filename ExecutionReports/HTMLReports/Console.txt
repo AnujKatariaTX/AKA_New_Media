@@ -1,0 +1,912 @@
+[RemoteTestNG] detected TestNG version 6.14.2
+Mar 17, 2018 6:40:06 PM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file C:\Users\Aman Pahuja\AKA_New_Media\workspace\cucumber-jvm-template-master 2.0\src\main\resources\extent-config.xml was not found.
+	LOG-: [
+
++===========================================================================================================+ -  2018-03-17 18:40:06 PM] 
+- 
+
++===========================================================================================================+
+- 
+
++===========================================================================================================+
+	LOG-: [ Suite started at Sat Mar 17 18:40:06 IST 2018 -  2018-03-17 18:40:06 PM] 
+-  Suite started at Sat Mar 17 18:40:06 IST 2018
+-  Suite started at Sat Mar 17 18:40:06 IST 2018
+	LOG-: [Suite Execution For Web application on environment : Local -  2018-03-17 18:40:06 PM] 
+- Suite Execution For Web application on environment : Local
+- Suite Execution For Web application on environment : Local
+	LOG-: [
+
++===========================================================================================================+ -  2018-03-17 18:40:06 PM] 
+- 
+
++===========================================================================================================+
+- 
+
++===========================================================================================================+
+Feature: GeneralDonation
+
+  @AKATestNew
+  Scenario Outline: Create a Reccur donar                  [90m# features/AkaNewMedia.feature:18[0m
+    [36mGiven [0m[36mRead "<TestData>" from second Excel file[0m
+    [36mAnd [0m[36mI open akaraisin website[0m
+    [36mWhen [0m[36mI click on donate now button[0m
+    [36mAnd [0m[36mI select the tribute in honour option and continue[0m
+    [36mAnd [0m[36mI fill the mandatory details in the prompt[0m
+    [36mAnd [0m[36mI fill tribute in-honour page[0m
+    [36mAnd [0m[36mI add the receipients[0m
+    [36mThen [0m[36mI verify the details[0m
+    [36mAnd [0m[36mI verify the transaction code is visible[0m
+
+    Examples: 
+	LOG-: [
++----------------------------------------------------------------------------------------------------------------------------+ -  2018-03-17 18:40:06 PM] 
+- 
++----------------------------------------------------------------------------------------------------------------------------+
+- 
++----------------------------------------------------------------------------------------------------------------------------+
+	LOG-: [Test Started: Create a Reccur donar -  2018-03-17 18:40:06 PM] 
+- Test Started: Create a Reccur donar
+- Test Started: Create a Reccur donar
+	LOG-: [Test is executed in Environment: Local -  2018-03-17 18:40:06 PM] 
+- Test is executed in Environment: Local
+- Test is executed in Environment: Local
+	LOG-: [Test is started with browser: CHROME -  2018-03-17 18:40:06 PM] 
+- Test is started with browser: CHROME
+- Test is started with browser: CHROME
+Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 17883
+Only local connections are allowed.
+Mar 17, 2018 6:40:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+	LOG-: [CHROME : Browser Launched and Maximized. -  2018-03-17 18:40:10 PM] 
+- CHROME : Browser Launched and Maximized.
+- CHROME : Browser Launched and Maximized.
+	LOG-: [Navigate to: https://tx.akaraisin.com/Donation/Event/Home.aspx?seid=16535&amp;mid=8 -  2018-03-17 18:40:10 PM] 
+- Navigate to: https://tx.akaraisin.com/Donation/Event/Home.aspx?seid=16535&amp;mid=8
+- Navigate to: https://tx.akaraisin.com/Donation/Event/Home.aspx?seid=16535&amp;mid=8
+	LOG-: [Click: By.xpath: //a[contains(@href,'/Donation/Event/DonationType')] -  2018-03-17 18:40:16 PM] 
+- Click: By.xpath: //a[contains(@href,'/Donation/Event/DonationType')]
+- Click: By.xpath: //a[contains(@href,'/Donation/Event/DonationType')]
+	LOG-: [Click: By.id: ctl00_content_ucDonationType_rbInHonour -  2018-03-17 18:40:17 PM] 
+- Click: By.id: ctl00_content_ucDonationType_rbInHonour
+- Click: By.id: ctl00_content_ucDonationType_rbInHonour
+	LOG-: [Click: By.className: FormButton -  2018-03-17 18:40:17 PM] 
+- Click: By.className: FormButton
+- Click: By.className: FormButton
+	LOG-: [Click: By.id: ctl00_contentAmount_ucAmount_btnRepeatingDonation -  2018-03-17 18:40:50 PM] 
+- Click: By.id: ctl00_contentAmount_ucAmount_btnRepeatingDonation
+- Click: By.id: ctl00_contentAmount_ucAmount_btnRepeatingDonation
+	LOG-: [Select dropdown by value : MONTHLY - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_ddlDonationFrequency'] -  2018-03-17 18:40:53 PM] 
+- Select dropdown by value : MONTHLY - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_ddlDonationFrequency']
+- Select dropdown by value : MONTHLY - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_ddlDonationFrequency']
+	LOG-: [Click: By.xpath: //*[@id='ctl00_contentAmount_ucAmount_rdoDonationAmount']/label[5] -  2018-03-17 18:40:53 PM] 
+- Click: By.xpath: //*[@id='ctl00_contentAmount_ucAmount_rdoDonationAmount']/label[5]
+- Click: By.xpath: //*[@id='ctl00_contentAmount_ucAmount_rdoDonationAmount']/label[5]
+	LOG-: [Select dropdown by index : 2 - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_lstStartMonth'] -  2018-03-17 18:40:55 PM] 
+- Select dropdown by index : 2 - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_lstStartMonth']
+- Select dropdown by index : 2 - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_lstStartMonth']
+	LOG-: [Select dropdown by index : 1 - By.id: ctl00_contentAmount_ucAmount_lstStartDay -  2018-03-17 18:40:56 PM] 
+- Select dropdown by index : 1 - By.id: ctl00_contentAmount_ucAmount_lstStartDay
+- Select dropdown by index : 1 - By.id: ctl00_contentAmount_ucAmount_lstStartDay
+	LOG-: [Select dropdown by index : 0 - By.id: ctl00_contentAmount_ucAmount_lstStartYear -  2018-03-17 18:40:57 PM] 
+- Select dropdown by index : 0 - By.id: ctl00_contentAmount_ucAmount_lstStartYear
+- Select dropdown by index : 0 - By.id: ctl00_contentAmount_ucAmount_lstStartYear
+	LOG-: [Click: By.id: ctl00_contentAmount_ucAmount_rdoSpecificNumberOfTimes -  2018-03-17 18:41:01 PM] 
+- Click: By.id: ctl00_contentAmount_ucAmount_rdoSpecificNumberOfTimes
+- Click: By.id: ctl00_contentAmount_ucAmount_rdoSpecificNumberOfTimes
+	LOG-: [Input Text: Sample Fund 2 - By.id: ctl00_contentAmount_ucAmount_radComboBoxFundType_Input -  2018-03-17 18:41:06 PM] 
+- Input Text: Sample Fund 2 - By.id: ctl00_contentAmount_ucAmount_radComboBoxFundType_Input
+- Input Text: Sample Fund 2 - By.id: ctl00_contentAmount_ucAmount_radComboBoxFundType_Input
+	LOG-: [Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlTitle -  2018-03-17 18:41:06 PM] 
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlTitle
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlTitle
+	LOG-: [Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlAddressType -  2018-03-17 18:41:07 PM] 
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlAddressType
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlAddressType
+	LOG-: [Select dropdown by text : Ontario - By.id: ctl00_contentContactInformation_ucProfile_ddlProvince -  2018-03-17 18:41:07 PM] 
+- Select dropdown by text : Ontario - By.id: ctl00_contentContactInformation_ucProfile_ddlProvince
+- Select dropdown by text : Ontario - By.id: ctl00_contentContactInformation_ucProfile_ddlProvince
+	LOG-: [Input Text: L7J 0A5 - By.id: ctl00_contentContactInformation_ucProfile_txtPostalCode -  2018-03-17 18:41:07 PM] 
+- Input Text: L7J 0A5 - By.id: ctl00_contentContactInformation_ucProfile_txtPostalCode
+- Input Text: L7J 0A5 - By.id: ctl00_contentContactInformation_ucProfile_txtPostalCode
+	LOG-: [Input Text: 4242424242424242 - By.xpath: //*[@id='txtCardNumber'] -  2018-03-17 18:41:08 PM] 
+- Input Text: 4242424242424242 - By.xpath: //*[@id='txtCardNumber']
+- Input Text: 4242424242424242 - By.xpath: //*[@id='txtCardNumber']
+	LOG-: [Input Text: Test Holder2 - By.xpath: //*[@aria-labelledby='lblCardHolder' and contains(@id,'ctl00_contentPaymentInformation_ucPayment_ucCardPayment_txtCardHolder')] -  2018-03-17 18:41:08 PM] 
+- Input Text: Test Holder2 - By.xpath: //*[@aria-labelledby='lblCardHolder' and contains(@id,'ctl00_contentPaymentInformation_ucPayment_ucCardPayment_txtCardHolder')]
+- Input Text: Test Holder2 - By.xpath: //*[@aria-labelledby='lblCardHolder' and contains(@id,'ctl00_contentPaymentInformation_ucPayment_ucCardPayment_txtCardHolder')]
+	LOG-: [Select dropdown by value : 10 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationMonth -  2018-03-17 18:41:08 PM] 
+- Select dropdown by value : 10 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationMonth
+- Select dropdown by value : 10 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationMonth
+	LOG-: [Select dropdown by value : 2025 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationYear -  2018-03-17 18:41:08 PM] 
+- Select dropdown by value : 2025 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationYear
+- Select dropdown by value : 2025 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationYear
+	LOG-: [Click: By.id: ctl00_contentSurvey_btnContinue -  2018-03-17 18:41:09 PM] 
+- Click: By.id: ctl00_contentSurvey_btnContinue
+- Click: By.id: ctl00_contentSurvey_btnContinue
+	LOG-: [Input Text: Honour First Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtFirstName -  2018-03-17 18:41:13 PM] 
+- Input Text: Honour First Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtFirstName
+- Input Text: Honour First Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtFirstName
+	LOG-: [Input Text: Honour Last Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtLastName -  2018-03-17 18:41:13 PM] 
+- Input Text: Honour Last Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtLastName
+- Input Text: Honour Last Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtLastName
+	LOG-: [Click: By.id: ctl00_contentCardType_ucCardType_lstCardType_0 -  2018-03-17 18:41:13 PM] 
+- Click: By.id: ctl00_contentCardType_ucCardType_lstCardType_0
+- Click: By.id: ctl00_contentCardType_ucCardType_lstCardType_0
+	LOG-: [Click: By.id: ctl00_contentCardType_ucCardType_btnContinue -  2018-03-17 18:41:13 PM] 
+- Click: By.id: ctl00_contentCardType_ucCardType_btnContinue
+- Click: By.id: ctl00_contentCardType_ucCardType_btnContinue
+count of frames  1
+	LOG-: [Input Text: Card First Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtFirstName -  2018-03-17 18:41:18 PM] 
+- Input Text: Card First Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtFirstName
+- Input Text: Card First Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtFirstName
+	LOG-: [Input Text: Card Last Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtLastName -  2018-03-17 18:41:18 PM] 
+- Input Text: Card Last Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtLastName
+- Input Text: Card Last Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtLastName
+	LOG-: [Input Text: CardEmail@m.ca - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtEmail -  2018-03-17 18:41:18 PM] 
+- Input Text: CardEmail@m.ca - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtEmail
+- Input Text: CardEmail@m.ca - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtEmail
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_btnAddRecipient -  2018-03-17 18:41:18 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_btnAddRecipient
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_btnAddRecipient
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl01_imgPreview -  2018-03-17 18:41:19 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl01_imgPreview
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl01_imgPreview
+	LOG-: [Click : By.xpath: //a[@id='fancybox-close'] -  2018-03-17 18:41:23 PM] 
+- Click : By.xpath: //a[@id='fancybox-close']
+- Click : By.xpath: //a[@id='fancybox-close']
+	LOG-: [Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img -  2018-03-17 18:41:25 PM] 
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+	LOG-: [Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img -  2018-03-17 18:41:27 PM] 
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl06_rdoCard -  2018-03-17 18:41:30 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl06_rdoCard
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl06_rdoCard
+	LOG-: [Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_label']/a -  2018-03-17 18:41:33 PM] 
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_label']/a
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_label']/a
+	LOG-: [Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_webPalette']/ul/li[9]/a/span -  2018-03-17 18:41:36 PM] 
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_webPalette']/ul/li[9]/a/span
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_webPalette']/ul/li[9]/a/span
+	LOG-: [Select dropdown by value : 694 - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucPersonalization_ddlPersonalizedMessage -  2018-03-17 18:41:36 PM] 
+- Select dropdown by value : 694 - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucPersonalization_ddlPersonalizedMessage
+- Select dropdown by value : 694 - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucPersonalization_ddlPersonalizedMessage
+	LOG-: [Input Text: Second Scenario test - By.xpath: //body[contains(text(),'Test message 2')] -  2018-03-17 18:41:40 PM] 
+- Input Text: Second Scenario test - By.xpath: //body[contains(text(),'Test message 2')]
+- Input Text: Second Scenario test - By.xpath: //body[contains(text(),'Test message 2')]
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucOptions_chkNotifyOpened -  2018-03-17 18:41:43 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucOptions_chkNotifyOpened
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucOptions_chkNotifyOpened
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_btnContinue -  2018-03-17 18:41:43 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_btnContinue
+- Click: By.id: ctl00_content_ucCardDetail_btnContinue
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divAmount']/table/tbody/tr[3]/td/table/tbody/tr/td[2] -  2018-03-17 18:41:45 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divAmount']/table/tbody/tr[3]/td/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divAmount']/table/tbody/tr[3]/td/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divProfile']/table/tbody/tr[2]/td/table/tbody/tr/td[2] -  2018-03-17 18:41:45 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divProfile']/table/tbody/tr[2]/td/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divProfile']/table/tbody/tr[2]/td/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucPayment_divPaymentCardDetails']/table/tbody/tr/td[2] -  2018-03-17 18:41:45 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucPayment_divPaymentCardDetails']/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucPayment_divPaymentCardDetails']/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucTribute_pnlTribute']/div/div/table/tbody/tr/td[2] -  2018-03-17 18:41:45 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucTribute_pnlTribute']/div/div/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucTribute_pnlTribute']/div/div/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucCards_pnlCards']/div/table/tbody/tr[2]/td -  2018-03-17 18:41:45 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucCards_pnlCards']/div/table/tbody/tr[2]/td
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucCards_pnlCards']/div/table/tbody/tr[2]/td
+First table passed :Data From Excel -> 1 May, 2018---- Data From Portal ->1 May, 2018
+First table passed :Data From Excel -> 1 June, 2018---- Data From Portal ->1 June, 2018
+First table passed :Data From Excel -> 50.00---- Data From Portal ->50.00
+First table passed :Data From Excel -> Sample Fund 2---- Data From Portal ->Sample Fund 2
+Second table passed :Data From Excel -> Mr. First Name Last Name---- Data From Portal ->Mr. First Name Last Name
+Second table passed :Data From Excel -> abc@abc.ca---- Data From Portal ->abc@abc.ca
+Second table passed :Data From Excel -> abc@abc.ca---- Data From Portal ->abc@abc.ca
+Second table passed :Data From Excel -> Canada---- Data From Portal ->Canada
+Second table passed :Data From Excel -> Address Line 1 Scenario2---- Data From Portal ->Address Line 1 Scenario2
+Second table passed :Data From Excel -> Test City2---- Data From Portal ->Test City2
+Second table passed :Data From Excel -> Ontario---- Data From Portal ->Ontario
+Second table passed :Data From Excel -> L7J 0A5---- Data From Portal ->L7J 0A5
+Second table passed :Data From Excel -> English---- Data From Portal ->English
+Third table passed :Data From Excel -> VISA---- Data From Portal ->VISA
+Third table passed :Data From Excel -> ********4242---- Data From Portal ->********4242
+Third table passed :Data From Excel -> Test Holder2---- Data From Portal ->Test Holder2
+Third table passed :Data From Excel -> 10/2025---- Data From Portal ->10/2025
+Fourth table passed :Data From Excel -> Honour First Name Honour Last Name---- Data From Portal ->Honour First Name Honour Last Name
+Fifth table passed :Data From Excel -> Card First Name Card Last Name---- Data From Portal ->Card First Name Card Last Name
+Fifth table passed :Data From Excel -> CardEmail@m.ca---- Data From Portal ->CardEmail@m.ca
+	LOG-: [Click: By.id: ctl00_content_ucDonationReview_btnContinue -  2018-03-17 18:41:46 PM] 
+- Click: By.id: ctl00_content_ucDonationReview_btnContinue
+- Click: By.id: ctl00_content_ucDonationReview_btnContinue
+	LOG-: [Check Element visible: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1] -  2018-03-17 18:41:49 PM] 
+- Check Element visible: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+- Check Element visible: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+	LOG-: [Get Element text: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1] -  2018-03-17 18:42:18 PM] 
+- Get Element text: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+- Get Element text: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+Transaction Number Dispalyed as : D-3986887.
+	LOG-: [Click: By.id: ctl00_content_ucEnd_btnContinue -  2018-03-17 18:42:18 PM] 
+- Click: By.id: ctl00_content_ucEnd_btnContinue
+- Click: By.id: ctl00_content_ucEnd_btnContinue
+	LOG-: [Test has ended closing browser: CHROME -  2018-03-17 18:42:22 PM] 
+- Test has ended closing browser: CHROME
+- Test has ended closing browser: CHROME
+org.apache.http.client.ClientProtocolException: Unexpected response status: 400
+	at jirautil.JiraUtil.updateExecutions(JiraUtil.java:291)
+	at jirautil.JiraUtil.updateJiraTestResults(JiraUtil.java:244)
+	at step_definitions.Hooks.afterMethodAKATest2(Hooks.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	LOG-: [Updated Results to Jira -  2018-03-17 18:42:25 PM] 
+- Updated Results to Jira
+- Updated Results to Jira
+	LOG-: [Closing Browsers -  2018-03-17 18:42:26 PM] 
+- Closing Browsers
+- Closing Browsers
+
+  @AKATestNew
+  Scenario Outline: Create a Reccur donar                  [90m# features/AkaNewMedia.feature:31[0m
+    [32mGiven [0m[32mRead "[0m[32m[1mTestData2[0m[32m" from second Excel file[0m          [90m# AKANewMedia_Scenario2.read_from_second_Excel_file(String)[0m
+    [32mAnd [0m[32mI open akaraisin website[0m                           [90m# AKANewMedia_Scenario2.i_open_akaraisin_website()[0m
+    [32mWhen [0m[32mI click on donate now button[0m                      [90m# AKANewMedia_Scenario2.i_click_on_donate_now_button()[0m
+    [32mAnd [0m[32mI select the tribute in honour option and continue[0m [90m# AKANewMedia_Scenario2.i_select_the_tribute_in_honour_option_and_continue()[0m
+    [32mAnd [0m[32mI fill the mandatory details in the prompt[0m         [90m# AKANewMedia_Scenario2.i_fill_the_mandatory_details_in_the_prompt()[0m
+    [32mAnd [0m[32mI fill tribute in-honour page[0m                      [90m# AKANewMedia_Scenario2.i_fill_tribute_in_honour_page()[0m
+    [32mAnd [0m[32mI add the receipients[0m                              [90m# AKANewMedia_Scenario2.i_add_the_receipients()[0m
+    [32mThen [0m[32mI verify the details[0m                              [90m# AKANewMedia_Scenario2.i_verify_the_details()[0m
+    [32mAnd [0m[32mI verify the transaction code is visible[0m           [90m# AKANewMedia_Scenario2.i_verify_the_transaction_code_is_visible()[0m
+	LOG-: [ suite finished at Sat Mar 17 18:42:26 IST 2018 -  2018-03-17 18:42:26 PM] 
+-  suite finished at Sat Mar 17 18:42:26 IST 2018
+-  suite finished at Sat Mar 17 18:42:26 IST 2018
+	LOG-: [
+
++===========================================================================================================+ -  2018-03-17 18:42:26 PM] 
+- 
+
++===========================================================================================================+
+- 
+
++===========================================================================================================+
+
+1 Scenarios ([32m1 passed[0m)
+9 Steps ([32m9 passed[0m)
+2m19.207s
+
+
+===============================================
+Cucumber Suite
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+[RemoteTestNG] detected TestNG version 6.14.2
+Mar 17, 2018 6:52:17 PM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file C:\Users\Aman Pahuja\AKA_New_Media\workspace\cucumber-jvm-template-master 2.0\src\main\resources\extent-config.xml was not found.
+	LOG-: [
+
++===========================================================================================================+ -  2018-03-17 18:52:18 PM] 
+- 
+
++===========================================================================================================+
+- 
+
++===========================================================================================================+
+	LOG-: [ Suite started at Sat Mar 17 18:52:18 IST 2018 -  2018-03-17 18:52:18 PM] 
+-  Suite started at Sat Mar 17 18:52:18 IST 2018
+-  Suite started at Sat Mar 17 18:52:18 IST 2018
+	LOG-: [Suite Execution For Web application on environment : Local -  2018-03-17 18:52:18 PM] 
+- Suite Execution For Web application on environment : Local
+- Suite Execution For Web application on environment : Local
+	LOG-: [
+
++===========================================================================================================+ -  2018-03-17 18:52:18 PM] 
+- 
+
++===========================================================================================================+
+- 
+
++===========================================================================================================+
+Feature: GeneralDonation
+
+  @AKATestNew
+  Scenario Outline: Create a Reccur donar                  [90m# features/AkaNewMedia.feature:18[0m
+    [36mGiven [0m[36mRead "<TestData>" from second Excel file[0m
+    [36mAnd [0m[36mI open akaraisin website[0m
+    [36mWhen [0m[36mI click on donate now button[0m
+    [36mAnd [0m[36mI select the tribute in honour option and continue[0m
+    [36mAnd [0m[36mI fill the mandatory details in the prompt[0m
+    [36mAnd [0m[36mI fill tribute in-honour page[0m
+    [36mAnd [0m[36mI add the receipients[0m
+    [36mThen [0m[36mI verify the details[0m
+    [36mAnd [0m[36mI verify the transaction code is visible[0m
+
+    Examples: 
+	LOG-: [
++----------------------------------------------------------------------------------------------------------------------------+ -  2018-03-17 18:52:18 PM] 
+- 
++----------------------------------------------------------------------------------------------------------------------------+
+- 
++----------------------------------------------------------------------------------------------------------------------------+
+	LOG-: [Test Started: Create a Reccur donar -  2018-03-17 18:52:18 PM] 
+- Test Started: Create a Reccur donar
+- Test Started: Create a Reccur donar
+	LOG-: [Test is executed in Environment: Local -  2018-03-17 18:52:18 PM] 
+- Test is executed in Environment: Local
+- Test is executed in Environment: Local
+	LOG-: [Test is started with browser: CHROME -  2018-03-17 18:52:18 PM] 
+- Test is started with browser: CHROME
+- Test is started with browser: CHROME
+Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 27468
+Only local connections are allowed.
+Mar 17, 2018 6:52:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+	LOG-: [CHROME : Browser Launched and Maximized. -  2018-03-17 18:52:22 PM] 
+- CHROME : Browser Launched and Maximized.
+- CHROME : Browser Launched and Maximized.
+	LOG-: [Navigate to: https://tx.akaraisin.com/Donation/Event/Home.aspx?seid=16535&amp;mid=8 -  2018-03-17 18:52:22 PM] 
+- Navigate to: https://tx.akaraisin.com/Donation/Event/Home.aspx?seid=16535&amp;mid=8
+- Navigate to: https://tx.akaraisin.com/Donation/Event/Home.aspx?seid=16535&amp;mid=8
+	LOG-: [Click: By.xpath: //a[contains(@href,'/Donation/Event/DonationType')] -  2018-03-17 18:52:28 PM] 
+- Click: By.xpath: //a[contains(@href,'/Donation/Event/DonationType')]
+- Click: By.xpath: //a[contains(@href,'/Donation/Event/DonationType')]
+	LOG-: [Click: By.id: ctl00_content_ucDonationType_rbInHonour -  2018-03-17 18:52:29 PM] 
+- Click: By.id: ctl00_content_ucDonationType_rbInHonour
+- Click: By.id: ctl00_content_ucDonationType_rbInHonour
+	LOG-: [Click: By.className: FormButton -  2018-03-17 18:52:30 PM] 
+- Click: By.className: FormButton
+- Click: By.className: FormButton
+	LOG-: [Click: By.id: ctl00_contentAmount_ucAmount_btnRepeatingDonation -  2018-03-17 18:53:03 PM] 
+- Click: By.id: ctl00_contentAmount_ucAmount_btnRepeatingDonation
+- Click: By.id: ctl00_contentAmount_ucAmount_btnRepeatingDonation
+	LOG-: [Select dropdown by value : MONTHLY - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_ddlDonationFrequency'] -  2018-03-17 18:53:06 PM] 
+- Select dropdown by value : MONTHLY - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_ddlDonationFrequency']
+- Select dropdown by value : MONTHLY - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_ddlDonationFrequency']
+	LOG-: [Click: By.xpath: //*[@id='ctl00_contentAmount_ucAmount_rdoDonationAmount']/label[5] -  2018-03-17 18:53:06 PM] 
+- Click: By.xpath: //*[@id='ctl00_contentAmount_ucAmount_rdoDonationAmount']/label[5]
+- Click: By.xpath: //*[@id='ctl00_contentAmount_ucAmount_rdoDonationAmount']/label[5]
+	LOG-: [Select dropdown by index : 2 - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_lstStartMonth'] -  2018-03-17 18:53:08 PM] 
+- Select dropdown by index : 2 - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_lstStartMonth']
+- Select dropdown by index : 2 - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_lstStartMonth']
+	LOG-: [Select dropdown by index : 1 - By.id: ctl00_contentAmount_ucAmount_lstStartDay -  2018-03-17 18:53:09 PM] 
+- Select dropdown by index : 1 - By.id: ctl00_contentAmount_ucAmount_lstStartDay
+- Select dropdown by index : 1 - By.id: ctl00_contentAmount_ucAmount_lstStartDay
+	LOG-: [Select dropdown by index : 0 - By.id: ctl00_contentAmount_ucAmount_lstStartYear -  2018-03-17 18:53:10 PM] 
+- Select dropdown by index : 0 - By.id: ctl00_contentAmount_ucAmount_lstStartYear
+- Select dropdown by index : 0 - By.id: ctl00_contentAmount_ucAmount_lstStartYear
+	LOG-: [Click: By.id: ctl00_contentAmount_ucAmount_rdoSpecificNumberOfTimes -  2018-03-17 18:53:13 PM] 
+- Click: By.id: ctl00_contentAmount_ucAmount_rdoSpecificNumberOfTimes
+- Click: By.id: ctl00_contentAmount_ucAmount_rdoSpecificNumberOfTimes
+	LOG-: [Input Text: Sample Fund 2 - By.id: ctl00_contentAmount_ucAmount_radComboBoxFundType_Input -  2018-03-17 18:53:19 PM] 
+- Input Text: Sample Fund 2 - By.id: ctl00_contentAmount_ucAmount_radComboBoxFundType_Input
+- Input Text: Sample Fund 2 - By.id: ctl00_contentAmount_ucAmount_radComboBoxFundType_Input
+	LOG-: [Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlTitle -  2018-03-17 18:53:19 PM] 
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlTitle
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlTitle
+	LOG-: [Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlAddressType -  2018-03-17 18:53:20 PM] 
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlAddressType
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlAddressType
+	LOG-: [Select dropdown by text : Ontario - By.id: ctl00_contentContactInformation_ucProfile_ddlProvince -  2018-03-17 18:53:20 PM] 
+- Select dropdown by text : Ontario - By.id: ctl00_contentContactInformation_ucProfile_ddlProvince
+- Select dropdown by text : Ontario - By.id: ctl00_contentContactInformation_ucProfile_ddlProvince
+	LOG-: [Input Text: L7J 0A5 - By.id: ctl00_contentContactInformation_ucProfile_txtPostalCode -  2018-03-17 18:53:20 PM] 
+- Input Text: L7J 0A5 - By.id: ctl00_contentContactInformation_ucProfile_txtPostalCode
+- Input Text: L7J 0A5 - By.id: ctl00_contentContactInformation_ucProfile_txtPostalCode
+	LOG-: [Input Text: 4242424242424242 - By.xpath: //*[@id='txtCardNumber'] -  2018-03-17 18:53:20 PM] 
+- Input Text: 4242424242424242 - By.xpath: //*[@id='txtCardNumber']
+- Input Text: 4242424242424242 - By.xpath: //*[@id='txtCardNumber']
+	LOG-: [Input Text: Test Holder2 - By.xpath: //*[@aria-labelledby='lblCardHolder' and contains(@id,'ctl00_contentPaymentInformation_ucPayment_ucCardPayment_txtCardHolder')] -  2018-03-17 18:53:21 PM] 
+- Input Text: Test Holder2 - By.xpath: //*[@aria-labelledby='lblCardHolder' and contains(@id,'ctl00_contentPaymentInformation_ucPayment_ucCardPayment_txtCardHolder')]
+- Input Text: Test Holder2 - By.xpath: //*[@aria-labelledby='lblCardHolder' and contains(@id,'ctl00_contentPaymentInformation_ucPayment_ucCardPayment_txtCardHolder')]
+	LOG-: [Select dropdown by value : 10 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationMonth -  2018-03-17 18:53:21 PM] 
+- Select dropdown by value : 10 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationMonth
+- Select dropdown by value : 10 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationMonth
+	LOG-: [Select dropdown by value : 2025 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationYear -  2018-03-17 18:53:21 PM] 
+- Select dropdown by value : 2025 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationYear
+- Select dropdown by value : 2025 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationYear
+	LOG-: [Click: By.id: ctl00_contentSurvey_btnContinue -  2018-03-17 18:53:21 PM] 
+- Click: By.id: ctl00_contentSurvey_btnContinue
+- Click: By.id: ctl00_contentSurvey_btnContinue
+	LOG-: [Input Text: Honour First Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtFirstName -  2018-03-17 18:53:25 PM] 
+- Input Text: Honour First Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtFirstName
+- Input Text: Honour First Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtFirstName
+	LOG-: [Input Text: Honour Last Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtLastName -  2018-03-17 18:53:25 PM] 
+- Input Text: Honour Last Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtLastName
+- Input Text: Honour Last Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtLastName
+	LOG-: [Click: By.id: ctl00_contentCardType_ucCardType_lstCardType_0 -  2018-03-17 18:53:25 PM] 
+- Click: By.id: ctl00_contentCardType_ucCardType_lstCardType_0
+- Click: By.id: ctl00_contentCardType_ucCardType_lstCardType_0
+	LOG-: [Click: By.id: ctl00_contentCardType_ucCardType_btnContinue -  2018-03-17 18:53:25 PM] 
+- Click: By.id: ctl00_contentCardType_ucCardType_btnContinue
+- Click: By.id: ctl00_contentCardType_ucCardType_btnContinue
+count of frames  1
+	LOG-: [Input Text: Card First Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtFirstName -  2018-03-17 18:53:29 PM] 
+- Input Text: Card First Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtFirstName
+- Input Text: Card First Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtFirstName
+	LOG-: [Input Text: Card Last Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtLastName -  2018-03-17 18:53:29 PM] 
+- Input Text: Card Last Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtLastName
+- Input Text: Card Last Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtLastName
+	LOG-: [Input Text: CardEmail@m.ca - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtEmail -  2018-03-17 18:53:30 PM] 
+- Input Text: CardEmail@m.ca - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtEmail
+- Input Text: CardEmail@m.ca - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtEmail
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_btnAddRecipient -  2018-03-17 18:53:30 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_btnAddRecipient
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_btnAddRecipient
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl01_imgPreview -  2018-03-17 18:53:31 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl01_imgPreview
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl01_imgPreview
+	LOG-: [Click : By.xpath: //a[@id='fancybox-close'] -  2018-03-17 18:53:34 PM] 
+- Click : By.xpath: //a[@id='fancybox-close']
+- Click : By.xpath: //a[@id='fancybox-close']
+	LOG-: [Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img -  2018-03-17 18:53:36 PM] 
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+	LOG-: [Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img -  2018-03-17 18:53:38 PM] 
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl06_rdoCard -  2018-03-17 18:53:41 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl06_rdoCard
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl06_rdoCard
+	LOG-: [Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_label']/a -  2018-03-17 18:53:45 PM] 
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_label']/a
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_label']/a
+	LOG-: [Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_webPalette']/ul/li[9]/a/span -  2018-03-17 18:53:48 PM] 
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_webPalette']/ul/li[9]/a/span
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_webPalette']/ul/li[9]/a/span
+	LOG-: [Select dropdown by value : 694 - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucPersonalization_ddlPersonalizedMessage -  2018-03-17 18:53:48 PM] 
+- Select dropdown by value : 694 - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucPersonalization_ddlPersonalizedMessage
+- Select dropdown by value : 694 - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucPersonalization_ddlPersonalizedMessage
+	LOG-: [Input Text: Second Scenario test - By.xpath: //body[contains(text(),'Test message 2')] -  2018-03-17 18:53:51 PM] 
+- Input Text: Second Scenario test - By.xpath: //body[contains(text(),'Test message 2')]
+- Input Text: Second Scenario test - By.xpath: //body[contains(text(),'Test message 2')]
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucOptions_chkNotifyOpened -  2018-03-17 18:53:55 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucOptions_chkNotifyOpened
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucOptions_chkNotifyOpened
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_btnContinue -  2018-03-17 18:53:55 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_btnContinue
+- Click: By.id: ctl00_content_ucCardDetail_btnContinue
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divAmount']/table/tbody/tr[3]/td/table/tbody/tr/td[2] -  2018-03-17 18:53:57 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divAmount']/table/tbody/tr[3]/td/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divAmount']/table/tbody/tr[3]/td/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divProfile']/table/tbody/tr[2]/td/table/tbody/tr/td[2] -  2018-03-17 18:53:57 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divProfile']/table/tbody/tr[2]/td/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divProfile']/table/tbody/tr[2]/td/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucPayment_divPaymentCardDetails']/table/tbody/tr/td[2] -  2018-03-17 18:53:57 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucPayment_divPaymentCardDetails']/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucPayment_divPaymentCardDetails']/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucTribute_pnlTribute']/div/div/table/tbody/tr/td[2] -  2018-03-17 18:53:57 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucTribute_pnlTribute']/div/div/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucTribute_pnlTribute']/div/div/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucCards_pnlCards']/div/table/tbody/tr[2]/td -  2018-03-17 18:53:57 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucCards_pnlCards']/div/table/tbody/tr[2]/td
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucCards_pnlCards']/div/table/tbody/tr[2]/td
+	LOG-: [Click: By.id: ctl00_content_ucDonationReview_btnContinue -  2018-03-17 18:53:57 PM] 
+- Click: By.id: ctl00_content_ucDonationReview_btnContinue
+- Click: By.id: ctl00_content_ucDonationReview_btnContinue
+	LOG-: [Check Element visible: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1] -  2018-03-17 18:54:00 PM] 
+- Check Element visible: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+- Check Element visible: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+	LOG-: [Get Element text: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1] -  2018-03-17 18:54:30 PM] 
+- Get Element text: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+- Get Element text: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+	LOG-: [Click: By.id: ctl00_content_ucEnd_btnContinue -  2018-03-17 18:54:30 PM] 
+- Click: By.id: ctl00_content_ucEnd_btnContinue
+- Click: By.id: ctl00_content_ucEnd_btnContinue
+	LOG-: [Test has ended closing browser: CHROME -  2018-03-17 18:54:34 PM] 
+- Test has ended closing browser: CHROME
+- Test has ended closing browser: CHROME
+org.apache.http.client.ClientProtocolException: Unexpected response status: 400
+	at jirautil.JiraUtil.updateExecutions(JiraUtil.java:291)
+	at jirautil.JiraUtil.updateJiraTestResults(JiraUtil.java:244)
+	at step_definitions.Hooks.afterMethodAKATest2(Hooks.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	LOG-: [Updated Results to Jira -  2018-03-17 18:54:37 PM] 
+- Updated Results to Jira
+- Updated Results to Jira
+	LOG-: [Closing Browsers -  2018-03-17 18:54:38 PM] 
+- Closing Browsers
+- Closing Browsers
+
+  @AKATestNew
+  Scenario Outline: Create a Reccur donar                  [90m# features/AkaNewMedia.feature:31[0m
+    [32mGiven [0m[32mRead "[0m[32m[1mTestData2[0m[32m" from second Excel file[0m          [90m# AKANewMedia_Scenario2.read_from_second_Excel_file(String)[0m
+    [32mAnd [0m[32mI open akaraisin website[0m                           [90m# AKANewMedia_Scenario2.i_open_akaraisin_website()[0m
+    [32mWhen [0m[32mI click on donate now button[0m                      [90m# AKANewMedia_Scenario2.i_click_on_donate_now_button()[0m
+    [32mAnd [0m[32mI select the tribute in honour option and continue[0m [90m# AKANewMedia_Scenario2.i_select_the_tribute_in_honour_option_and_continue()[0m
+    [32mAnd [0m[32mI fill the mandatory details in the prompt[0m         [90m# AKANewMedia_Scenario2.i_fill_the_mandatory_details_in_the_prompt()[0m
+    [32mAnd [0m[32mI fill tribute in-honour page[0m                      [90m# AKANewMedia_Scenario2.i_fill_tribute_in_honour_page()[0m
+    [32mAnd [0m[32mI add the receipients[0m                              [90m# AKANewMedia_Scenario2.i_add_the_receipients()[0m
+    [32mThen [0m[32mI verify the details[0m                              [90m# AKANewMedia_Scenario2.i_verify_the_details()[0m
+    [32mAnd [0m[32mI verify the transaction code is visible[0m           [90m# AKANewMedia_Scenario2.i_verify_the_transaction_code_is_visible()[0m
+	LOG-: [ suite finished at Sat Mar 17 18:54:38 IST 2018 -  2018-03-17 18:54:38 PM] 
+-  suite finished at Sat Mar 17 18:54:38 IST 2018
+-  suite finished at Sat Mar 17 18:54:38 IST 2018
+	LOG-: [
+
++===========================================================================================================+ -  2018-03-17 18:54:38 PM] 
+- 
+
++===========================================================================================================+
+- 
+
++===========================================================================================================+
+
+1 Scenarios ([32m1 passed[0m)
+9 Steps ([32m9 passed[0m)
+2m20.163s
+
+[RemoteTestNG] detected TestNG version 6.14.2
+Mar 17, 2018 6:58:22 PM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file C:\Users\Aman Pahuja\AKA_New_Media\workspace\cucumber-jvm-template-master 2.0\src\main\resources\extent-config.xml was not found.
+	LOG-: [
+
++===========================================================================================================+ -  2018-03-17 18:58:23 PM] 
+- 
+
++===========================================================================================================+
+- 
+
++===========================================================================================================+
+	LOG-: [ Suite started at Sat Mar 17 18:58:23 IST 2018 -  2018-03-17 18:58:23 PM] 
+-  Suite started at Sat Mar 17 18:58:23 IST 2018
+-  Suite started at Sat Mar 17 18:58:23 IST 2018
+	LOG-: [Suite Execution For Web application on environment : Local -  2018-03-17 18:58:23 PM] 
+- Suite Execution For Web application on environment : Local
+- Suite Execution For Web application on environment : Local
+	LOG-: [
+
++===========================================================================================================+ -  2018-03-17 18:58:23 PM] 
+- 
+
++===========================================================================================================+
+- 
+
++===========================================================================================================+
+Feature: GeneralDonation
+
+  @AKATestNew
+  Scenario Outline: Create a Reccur donar                  [90m# features/AkaNewMedia.feature:18[0m
+    [36mGiven [0m[36mRead "<TestData>" from second Excel file[0m
+    [36mAnd [0m[36mI open akaraisin website[0m
+    [36mWhen [0m[36mI click on donate now button[0m
+    [36mAnd [0m[36mI select the tribute in honour option and continue[0m
+    [36mAnd [0m[36mI fill the mandatory details in the prompt[0m
+    [36mAnd [0m[36mI fill tribute in-honour page[0m
+    [36mAnd [0m[36mI add the receipients[0m
+    [36mThen [0m[36mI verify the details[0m
+    [36mAnd [0m[36mI verify the transaction code is visible[0m
+
+    Examples: 
+	LOG-: [
++----------------------------------------------------------------------------------------------------------------------------+ -  2018-03-17 18:58:23 PM] 
+- 
++----------------------------------------------------------------------------------------------------------------------------+
+- 
++----------------------------------------------------------------------------------------------------------------------------+
+	LOG-: [Test Started: Create a Reccur donar -  2018-03-17 18:58:23 PM] 
+- Test Started: Create a Reccur donar
+- Test Started: Create a Reccur donar
+	LOG-: [Test is executed in Environment: Local -  2018-03-17 18:58:23 PM] 
+- Test is executed in Environment: Local
+- Test is executed in Environment: Local
+	LOG-: [Test is started with browser: CHROME -  2018-03-17 18:58:23 PM] 
+- Test is started with browser: CHROME
+- Test is started with browser: CHROME
+Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 15040
+Only local connections are allowed.
+Mar 17, 2018 6:58:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+	LOG-: [CHROME : Browser Launched and Maximized. -  2018-03-17 18:58:27 PM] 
+- CHROME : Browser Launched and Maximized.
+- CHROME : Browser Launched and Maximized.
+	LOG-: [Navigate to: https://tx.akaraisin.com/Donation/Event/Home.aspx?seid=16535&amp;mid=8 -  2018-03-17 18:58:27 PM] 
+- Navigate to: https://tx.akaraisin.com/Donation/Event/Home.aspx?seid=16535&amp;mid=8
+- Navigate to: https://tx.akaraisin.com/Donation/Event/Home.aspx?seid=16535&amp;mid=8
+	LOG-: [Click: By.xpath: //a[contains(@href,'/Donation/Event/DonationType')] -  2018-03-17 18:58:32 PM] 
+- Click: By.xpath: //a[contains(@href,'/Donation/Event/DonationType')]
+- Click: By.xpath: //a[contains(@href,'/Donation/Event/DonationType')]
+	LOG-: [Click: By.id: ctl00_content_ucDonationType_rbInHonour -  2018-03-17 18:58:33 PM] 
+- Click: By.id: ctl00_content_ucDonationType_rbInHonour
+- Click: By.id: ctl00_content_ucDonationType_rbInHonour
+	LOG-: [Click: By.className: FormButton -  2018-03-17 18:58:33 PM] 
+- Click: By.className: FormButton
+- Click: By.className: FormButton
+	LOG-: [Click: By.id: ctl00_contentAmount_ucAmount_btnRepeatingDonation -  2018-03-17 18:59:06 PM] 
+- Click: By.id: ctl00_contentAmount_ucAmount_btnRepeatingDonation
+- Click: By.id: ctl00_contentAmount_ucAmount_btnRepeatingDonation
+	LOG-: [Select dropdown by value : MONTHLY - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_ddlDonationFrequency'] -  2018-03-17 18:59:09 PM] 
+- Select dropdown by value : MONTHLY - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_ddlDonationFrequency']
+- Select dropdown by value : MONTHLY - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_ddlDonationFrequency']
+	LOG-: [Click: By.xpath: //*[@id='ctl00_contentAmount_ucAmount_rdoDonationAmount']/label[5] -  2018-03-17 18:59:09 PM] 
+- Click: By.xpath: //*[@id='ctl00_contentAmount_ucAmount_rdoDonationAmount']/label[5]
+- Click: By.xpath: //*[@id='ctl00_contentAmount_ucAmount_rdoDonationAmount']/label[5]
+	LOG-: [Select dropdown by index : 2 - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_lstStartMonth'] -  2018-03-17 18:59:12 PM] 
+- Select dropdown by index : 2 - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_lstStartMonth']
+- Select dropdown by index : 2 - By.xpath: //*[@id='ctl00_contentAmount_ucAmount_lstStartMonth']
+	LOG-: [Select dropdown by index : 1 - By.id: ctl00_contentAmount_ucAmount_lstStartDay -  2018-03-17 18:59:13 PM] 
+- Select dropdown by index : 1 - By.id: ctl00_contentAmount_ucAmount_lstStartDay
+- Select dropdown by index : 1 - By.id: ctl00_contentAmount_ucAmount_lstStartDay
+	LOG-: [Select dropdown by index : 0 - By.id: ctl00_contentAmount_ucAmount_lstStartYear -  2018-03-17 18:59:14 PM] 
+- Select dropdown by index : 0 - By.id: ctl00_contentAmount_ucAmount_lstStartYear
+- Select dropdown by index : 0 - By.id: ctl00_contentAmount_ucAmount_lstStartYear
+	LOG-: [Click: By.id: ctl00_contentAmount_ucAmount_rdoSpecificNumberOfTimes -  2018-03-17 18:59:17 PM] 
+- Click: By.id: ctl00_contentAmount_ucAmount_rdoSpecificNumberOfTimes
+- Click: By.id: ctl00_contentAmount_ucAmount_rdoSpecificNumberOfTimes
+	LOG-: [Input Text: Sample Fund 2 - By.id: ctl00_contentAmount_ucAmount_radComboBoxFundType_Input -  2018-03-17 18:59:22 PM] 
+- Input Text: Sample Fund 2 - By.id: ctl00_contentAmount_ucAmount_radComboBoxFundType_Input
+- Input Text: Sample Fund 2 - By.id: ctl00_contentAmount_ucAmount_radComboBoxFundType_Input
+	LOG-: [Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlTitle -  2018-03-17 18:59:23 PM] 
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlTitle
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlTitle
+	LOG-: [Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlAddressType -  2018-03-17 18:59:23 PM] 
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlAddressType
+- Select dropdown by index : 1 - By.id: ctl00_contentContactInformation_ucProfile_ddlAddressType
+	LOG-: [Select dropdown by text : Ontario - By.id: ctl00_contentContactInformation_ucProfile_ddlProvince -  2018-03-17 18:59:24 PM] 
+- Select dropdown by text : Ontario - By.id: ctl00_contentContactInformation_ucProfile_ddlProvince
+- Select dropdown by text : Ontario - By.id: ctl00_contentContactInformation_ucProfile_ddlProvince
+	LOG-: [Input Text: L7J 0A5 - By.id: ctl00_contentContactInformation_ucProfile_txtPostalCode -  2018-03-17 18:59:24 PM] 
+- Input Text: L7J 0A5 - By.id: ctl00_contentContactInformation_ucProfile_txtPostalCode
+- Input Text: L7J 0A5 - By.id: ctl00_contentContactInformation_ucProfile_txtPostalCode
+	LOG-: [Input Text: 4242424242424242 - By.xpath: //*[@id='txtCardNumber'] -  2018-03-17 18:59:24 PM] 
+- Input Text: 4242424242424242 - By.xpath: //*[@id='txtCardNumber']
+- Input Text: 4242424242424242 - By.xpath: //*[@id='txtCardNumber']
+	LOG-: [Input Text: Test Holder2 - By.xpath: //*[@aria-labelledby='lblCardHolder' and contains(@id,'ctl00_contentPaymentInformation_ucPayment_ucCardPayment_txtCardHolder')] -  2018-03-17 18:59:24 PM] 
+- Input Text: Test Holder2 - By.xpath: //*[@aria-labelledby='lblCardHolder' and contains(@id,'ctl00_contentPaymentInformation_ucPayment_ucCardPayment_txtCardHolder')]
+- Input Text: Test Holder2 - By.xpath: //*[@aria-labelledby='lblCardHolder' and contains(@id,'ctl00_contentPaymentInformation_ucPayment_ucCardPayment_txtCardHolder')]
+	LOG-: [Select dropdown by value : 10 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationMonth -  2018-03-17 18:59:24 PM] 
+- Select dropdown by value : 10 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationMonth
+- Select dropdown by value : 10 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationMonth
+	LOG-: [Select dropdown by value : 2025 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationYear -  2018-03-17 18:59:25 PM] 
+- Select dropdown by value : 2025 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationYear
+- Select dropdown by value : 2025 - By.id: ctl00_contentPaymentInformation_ucPayment_ucCardPayment_ddlExpirationYear
+	LOG-: [Click: By.id: ctl00_contentSurvey_btnContinue -  2018-03-17 18:59:25 PM] 
+- Click: By.id: ctl00_contentSurvey_btnContinue
+- Click: By.id: ctl00_contentSurvey_btnContinue
+	LOG-: [Input Text: Honour First Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtFirstName -  2018-03-17 18:59:29 PM] 
+- Input Text: Honour First Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtFirstName
+- Input Text: Honour First Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtFirstName
+	LOG-: [Input Text: Honour Last Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtLastName -  2018-03-17 18:59:29 PM] 
+- Input Text: Honour Last Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtLastName
+- Input Text: Honour Last Name - By.id: ctl00_contentTributee_ucTributeInHonour_txtLastName
+	LOG-: [Click: By.id: ctl00_contentCardType_ucCardType_lstCardType_0 -  2018-03-17 18:59:29 PM] 
+- Click: By.id: ctl00_contentCardType_ucCardType_lstCardType_0
+- Click: By.id: ctl00_contentCardType_ucCardType_lstCardType_0
+	LOG-: [Click: By.id: ctl00_contentCardType_ucCardType_btnContinue -  2018-03-17 18:59:29 PM] 
+- Click: By.id: ctl00_contentCardType_ucCardType_btnContinue
+- Click: By.id: ctl00_contentCardType_ucCardType_btnContinue
+count of frames  1
+	LOG-: [Input Text: Card First Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtFirstName -  2018-03-17 18:59:35 PM] 
+- Input Text: Card First Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtFirstName
+- Input Text: Card First Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtFirstName
+	LOG-: [Input Text: Card Last Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtLastName -  2018-03-17 18:59:35 PM] 
+- Input Text: Card Last Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtLastName
+- Input Text: Card Last Name - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtLastName
+	LOG-: [Input Text: CardEmail@m.ca - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtEmail -  2018-03-17 18:59:35 PM] 
+- Input Text: CardEmail@m.ca - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtEmail
+- Input Text: CardEmail@m.ca - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_txtEmail
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_btnAddRecipient -  2018-03-17 18:59:35 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_btnAddRecipient
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucRecipients_btnAddRecipient
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl01_imgPreview -  2018-03-17 18:59:36 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl01_imgPreview
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl01_imgPreview
+	LOG-: [Click : By.xpath: //a[@id='fancybox-close'] -  2018-03-17 18:59:40 PM] 
+- Click : By.xpath: //a[@id='fancybox-close']
+- Click : By.xpath: //a[@id='fancybox-close']
+	LOG-: [Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img -  2018-03-17 18:59:42 PM] 
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+	LOG-: [Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img -  2018-03-17 18:59:44 PM] 
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+- Click: By.xpath: //*[@id='ecard_scroller']/a[2]/img
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl06_rdoCard -  2018-03-17 18:59:47 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl06_rdoCard
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_repCards_ctl06_rdoCard
+	LOG-: [Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_label']/a -  2018-03-17 18:59:50 PM] 
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_label']/a
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_label']/a
+	LOG-: [Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_webPalette']/ul/li[9]/a/span -  2018-03-17 18:59:53 PM] 
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_webPalette']/ul/li[9]/a/span
+- Click: By.xpath: //*[@id='ctl00_content_ucCardDetail_ucECardDetail_ucTemplates_clrText_webPalette']/ul/li[9]/a/span
+	LOG-: [Select dropdown by value : 694 - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucPersonalization_ddlPersonalizedMessage -  2018-03-17 18:59:53 PM] 
+- Select dropdown by value : 694 - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucPersonalization_ddlPersonalizedMessage
+- Select dropdown by value : 694 - By.id: ctl00_content_ucCardDetail_ucECardDetail_ucPersonalization_ddlPersonalizedMessage
+	LOG-: [Input Text: Second Scenario test - By.xpath: //body[contains(text(),'Test message 2')] -  2018-03-17 18:59:57 PM] 
+- Input Text: Second Scenario test - By.xpath: //body[contains(text(),'Test message 2')]
+- Input Text: Second Scenario test - By.xpath: //body[contains(text(),'Test message 2')]
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucOptions_chkNotifyOpened -  2018-03-17 19:00:00 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucOptions_chkNotifyOpened
+- Click: By.id: ctl00_content_ucCardDetail_ucECardDetail_ucOptions_chkNotifyOpened
+	LOG-: [Click: By.id: ctl00_content_ucCardDetail_btnContinue -  2018-03-17 19:00:00 PM] 
+- Click: By.id: ctl00_content_ucCardDetail_btnContinue
+- Click: By.id: ctl00_content_ucCardDetail_btnContinue
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divAmount']/table/tbody/tr[3]/td/table/tbody/tr/td[2] -  2018-03-17 19:00:02 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divAmount']/table/tbody/tr[3]/td/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divAmount']/table/tbody/tr[3]/td/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divProfile']/table/tbody/tr[2]/td/table/tbody/tr/td[2] -  2018-03-17 19:00:02 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divProfile']/table/tbody/tr[2]/td/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_divProfile']/table/tbody/tr[2]/td/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucPayment_divPaymentCardDetails']/table/tbody/tr/td[2] -  2018-03-17 19:00:02 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucPayment_divPaymentCardDetails']/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucPayment_divPaymentCardDetails']/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucTribute_pnlTribute']/div/div/table/tbody/tr/td[2] -  2018-03-17 19:00:02 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucTribute_pnlTribute']/div/div/table/tbody/tr/td[2]
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucTribute_pnlTribute']/div/div/table/tbody/tr/td[2]
+	LOG-: [Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucCards_pnlCards']/div/table/tbody/tr[2]/td -  2018-03-17 19:00:02 PM] 
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucCards_pnlCards']/div/table/tbody/tr[2]/td
+- Get List of Elements: By.xpath: //div[@id='ctl00_content_ucDonationReview_ucCards_pnlCards']/div/table/tbody/tr[2]/td
+	LOG-: [Click: By.id: ctl00_content_ucDonationReview_btnContinue -  2018-03-17 19:00:03 PM] 
+- Click: By.id: ctl00_content_ucDonationReview_btnContinue
+- Click: By.id: ctl00_content_ucDonationReview_btnContinue
+	LOG-: [Check Element visible: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1] -  2018-03-17 19:00:06 PM] 
+- Check Element visible: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+- Check Element visible: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+	LOG-: [Get Element text: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1] -  2018-03-17 19:00:35 PM] 
+- Get Element text: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+- Get Element text: By.xpath: //*[@id='ctl00_content_ucEnd_lblPaymentStatus']/span[2]/span[1]
+	LOG-: [Click: By.id: ctl00_content_ucEnd_btnContinue -  2018-03-17 19:00:35 PM] 
+- Click: By.id: ctl00_content_ucEnd_btnContinue
+- Click: By.id: ctl00_content_ucEnd_btnContinue
+	LOG-: [Test has ended closing browser: CHROME -  2018-03-17 19:00:39 PM] 
+- Test has ended closing browser: CHROME
+- Test has ended closing browser: CHROME
+org.apache.http.client.ClientProtocolException: Unexpected response status: 400
+	at jirautil.JiraUtil.updateExecutions(JiraUtil.java:291)
+	at jirautil.JiraUtil.updateJiraTestResults(JiraUtil.java:244)
+	at step_definitions.Hooks.afterMethodAKATest2(Hooks.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberScenarioOutline.run(CucumberScenarioOutline.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	LOG-: [Updated Results to Jira -  2018-03-17 19:00:42 PM] 
+- Updated Results to Jira
+- Updated Results to Jira
+	LOG-: [Closing Browsers -  2018-03-17 19:00:43 PM] 
+- Closing Browsers
+- Closing Browsers
+
+  @AKATestNew
+  Scenario Outline: Create a Reccur donar                  [90m# features/AkaNewMedia.feature:31[0m
+    [32mGiven [0m[32mRead "[0m[32m[1mTestData2[0m[32m" from second Excel file[0m          [90m# AKANewMedia_Scenario2.read_from_second_Excel_file(String)[0m
+    [32mAnd [0m[32mI open akaraisin website[0m                           [90m# AKANewMedia_Scenario2.i_open_akaraisin_website()[0m
+    [32mWhen [0m[32mI click on donate now button[0m                      [90m# AKANewMedia_Scenario2.i_click_on_donate_now_button()[0m
+    [32mAnd [0m[32mI select the tribute in honour option and continue[0m [90m# AKANewMedia_Scenario2.i_select_the_tribute_in_honour_option_and_continue()[0m
+    [32mAnd [0m[32mI fill the mandatory details in the prompt[0m         [90m# AKANewMedia_Scenario2.i_fill_the_mandatory_details_in_the_prompt()[0m
+    [32mAnd [0m[32mI fill tribute in-honour page[0m                      [90m# AKANewMedia_Scenario2.i_fill_tribute_in_honour_page()[0m
+    [32mAnd [0m[32mI add the receipients[0m                              [90m# AKANewMedia_Scenario2.i_add_the_receipients()[0m
+    [32mThen [0m[32mI verify the details[0m                              [90m# AKANewMedia_Scenario2.i_verify_the_details()[0m
+    [32mAnd [0m[32mI verify the transaction code is visible[0m           [90m# AKANewMedia_Scenario2.i_verify_the_transaction_code_is_visible()[0m
+	LOG-: [ suite finished at Sat Mar 17 19:00:43 IST 2018 -  2018-03-17 19:00:43 PM] 
+-  suite finished at Sat Mar 17 19:00:43 IST 2018
+-  suite finished at Sat Mar 17 19:00:43 IST 2018
+	LOG-: [
+
++===========================================================================================================+ -  2018-03-17 19:00:43 PM] 
+- 
+
++===========================================================================================================+
+- 
+
++===========================================================================================================+
+
+1 Scenarios ([32m1 passed[0m)
+9 Steps ([32m9 passed[0m)
+2m19.555s
+
